@@ -72,8 +72,8 @@ form button {
 }
 
 .skip{
-  color: rgb(0, 0, 0);
-  background-color: #38CC77;
+  color: rgb(255, 255, 255);
+  background-color: #1d9b53;
   padding: 2px;
   border: 2px solid black;
   text-decoration: none;
