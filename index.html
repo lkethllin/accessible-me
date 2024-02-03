@@ -49,12 +49,14 @@
       <div class="contact-section">
         <h1>Contact Us</h1>
         <form action="thanks.html">
-          <label>Full Name</label>
-          <input type="text" placeholder="Full Name" aria-label="Write your Full Name here">
-          <input type="text" placeholder="Email" aria-label="Write your Email here">
-          <input type="text" placeholder="Subject" aria-label="Write your Message here">
+          <label for="name">Full Name</label>
+          <input id="name" type="text" placeholder="Full Name" aria-label="Write your Full Name here">
+          <label for="email">Email</label>
+          <input id="email" type="text" placeholder="Email" aria-label="Write your Email here">
+          <label for="subject">Subject</label>
+          <input id="subject" type="text" placeholder="Subject" aria-label="Write your subject title here">
           <b>Your Message</b>
-          <textarea></textarea>
+          <textarea aria-label="Write your message here"></textarea>
           <button type="submit">Send</button>
         </form>
       </div>
