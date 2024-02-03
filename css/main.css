@@ -22,13 +22,14 @@ h6 {
 
 img {
   width: 100%;
+  margin: 30px;
 }
 
 .main-nav ul {
   list-style: none;
   display: flex;
   flex-wrap: wrap;
-  margin: 0;
+  margin: 30px;
   padding: 0;
 }
 
@@ -68,4 +69,14 @@ form button {
 
 .site-footer {
   padding: 2rem 0;
+}
+
+.skip{
+  color: rgb(0, 0, 0);
+  background-color: #38CC77;
+  padding: 2px;
+  border: 2px solid black;
+  text-decoration: none;
+  margin: 100px;
+  
 }
